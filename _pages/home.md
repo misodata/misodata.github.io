@@ -2,35 +2,35 @@
 layout: splash
 permalink: /
 hidden: true
+page-title: fff
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_color: "#ffcc81"
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-arrow-right' aria-hidden='true'></i> Sign up for the beta"
+      url: "/sign-up/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  Turn-key auto scaling data & machine learning pipelines<br />
+  <!-- small><a href="https://github.com/misodata">Latest release v0.1</a></small -->
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/splash-out-of-the-box.png
+    alt: "out-of-the-box"
+    title: "Out-of-the-box data platform"
+    excerpt: "Just point us to your code & cloud, we'll do the rest"
+    url: "/learn-more/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+  - image_path: /assets/images/splash-cost-saving.png
+    alt: "cost-saving"
+    title: "Reduce costs"
+    excerpt: "The autoscaling & advanced resource monitoring make sure your workloads use the minimum amount of compute needed"
+    url: "/learn-more/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+  - image_path: /assets/images/splash-monitoring.png
+    alt: "monitoring"
+    title: "Advanced monitoring"
+    excerpt: "In depth overview of the resources, cost and performance of your workloads"
+    url: "/learn-more/"
     btn_class: "btn--primary"
     btn_label: "Learn more"      
 ---

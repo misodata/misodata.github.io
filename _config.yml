@@ -1,6 +1,6 @@
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "aqua"
+minimal_mistakes_skin    : "misodata"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -13,16 +13,16 @@ locale: "en-US"
 title: misodata.io
 email: info@misodata.io
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : #
 description: >- # this means to ignore newlines until "baseurl:"
   TODO
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://misodata.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://misodata.io"
 twitter_username: misodata_io
 github_username:  misodata
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "midodata"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+logo                     : "/assets/images/logo-88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 
@@ -59,7 +59,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : # true, false (default)
+  hide                   : true
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
