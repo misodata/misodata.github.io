@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 page-title: fff
 header:
-  overlay_color: "#ffcc81"
+  overlay_color: "#0092ca"
   actions:
     - label: "<i class='fas fa-arrow-right' aria-hidden='true'></i> Sign up for the beta"
       url: "/sign-up/"
