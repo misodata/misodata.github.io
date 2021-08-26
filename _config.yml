@@ -1,11 +1,13 @@
 # Build settings
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin    : "misodata"
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin    : "air"
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 
 # Site Settings
