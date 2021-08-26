@@ -1,4 +1,7 @@
 # main links
-#main:
-#  - title: "About"
-#    url: https://misodata.io/about
+main:
+  - title: "Contact Us"
+    url: /contact-us
+  - title: Login
+    url: /login
+    class: "btn btn--primary"

@@ -6,7 +6,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-include-cache
   - jekyll-remote-theme
 
 
@@ -104,6 +103,7 @@ analytics:
 
 # Site Author
 author:
+  bio: "fff"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -132,7 +132,7 @@ footer:
       url: "https://twitter.com/misodata_io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/misodata_io"
+      url: "https://github.com/misodata"
 
 
 # Reading Files
@@ -262,7 +262,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
@@ -273,7 +273,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
   # _docs
   - scope:
       path: ""

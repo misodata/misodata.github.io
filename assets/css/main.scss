@@ -6,3 +6,20 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.archive__item-title{
+  height: 3em;
+}
+
+.archive__item-excerpt{
+  height: 6em;
+}
+
+#mc-embedded-subscribe-form{
+  background-color: $background-color;
+
+}
+
+#mc_embed_signup form{
+  text-align: left !important;
+}
